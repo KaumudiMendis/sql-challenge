@@ -1,14 +1,14 @@
 # sql-challenge
 
 SQL Homework - Employee Database: A Mystery in Two Parts¶
-sql.png
+
 
 ## Background
-It is a beautiful spring day, and it is two weeks since you have been hired as a new data engineer at Pewlett Hackard. Your first major task is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
+It is a beautiful spring day, and it is two weeks since I have been hired as a new data engineer at Pewlett Hackard. The first major task is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
 
-In this assignment, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, you will perform:
+In this assignment, designed the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, will perform:
 
- -   Data Engineering
+ -  Data Engineering
 
  -  Data Analysis
 
@@ -23,13 +23,13 @@ Inside local git repository, created a directory for the SQL challenge. Used a f
 
 Added files to this folder.
 
-Push the changes to GitHub.
+Pushed the changes to GitHub.
 
 ## Instructions
 
 ## Data Modeling
 
-Inspectd the CSVs and sketch out an ERD of the tables. used tool http://www.quickdatabasediagrams.com.
+Inspected the CSVs and sketch out an ERD of the tables. used tool http://www.quickdatabasediagrams.com.
 
 ## Data Engineering
 Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
@@ -39,9 +39,10 @@ Be sure to create tables in the correct order to handle foreign keys.
 Import each CSV file into the corresponding SQL table. Note be sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.
 
 ## Data Analysis
-Once you have a complete database, do the following:
 
-1. List the following details of each employee: employee number, last name, first name, sex, and salary.
+Data bases were completed and following lists were created:
+
+1. List of the following details of each employee: employee number, last name, first name, sex, and salary.
 
 2. List first name, last name, and hire date for employees who were hired in 1986.
 
@@ -69,25 +70,27 @@ from sqlalchemy import create_engine
 
 If using a password, do not upload your password to your GitHub repository. See https://www.youtube.com/watch?v=2uaTPmNvH0I and https://help.github.com/en/github/using-git/ignoring-files for more information.
 
-Create a histogram to visualize the most common salary ranges for employees.
+Created a histogram to visualize the most common salary ranges for employees.
 
-Create a bar chart of average salary by title.
+Created a bar chart of average salary by title.
 
 Epilogue
 Evidence in hand, you march into your boss's office and present the visualization. With a sly grin, your boss thanks you for your work. On your way out of the office, you hear the words, "Search your ID number." You look down at your badge to see that your employee ID number is 499942.
 
 Submission
-  Create an image file of your ERD.
+  Created an image file of your ERD.
 
-  Create a .sql file of your table schemata.
+  Created a .sql file of your table schemata.
 
-  Create a .sql file of your queries.
+  Created a .sql file of your queries.
 
-  (Optional) Create a Jupyter Notebook of the bonus analysis.
+  ##(Optional) Create a Jupyter Notebook of the bonus analysis.
+  
+  ###This will be submitted as the second part. 
 
   Create and upload a repository with the above files to GitHub and post a link on BootCamp Spot.
 
   Ensure your repository has regular commits and a thorough README.md file
 
-Rubric
+#Rubric
 Unit 9 Rubric - SQL Homework - Employee Database: A Mystery in Two Parts
