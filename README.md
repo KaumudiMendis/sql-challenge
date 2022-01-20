@@ -84,13 +84,13 @@ Submission
 
   Created a .sql file of your queries.
 
-  ##(Optional) Create a Jupyter Notebook of the bonus analysis.
+  ## (Optional) Create a Jupyter Notebook of the bonus analysis.
   
-  ###This will be submitted as the second part. 
+  ### This will be submitted as the second part. 
 
   Create and upload a repository with the above files to GitHub and post a link on BootCamp Spot.
 
   Ensure your repository has regular commits and a thorough README.md file
 
-#Rubric
+# Rubric
 Unit 9 Rubric - SQL Homework - Employee Database: A Mystery in Two Parts
