@@ -1,4 +1,17 @@
+-- Database: EmployeeSQL_db
 
+-- DROP DATABASE IF EXISTS "EmployeeSQL_db";
+
+CREATE DATABASE "EmployeeSQL_db"
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'C'
+    LC_CTYPE = 'C'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1;
+	
+	
 	
 	
 -- DATA ANALYSIS :
@@ -115,10 +128,9 @@ ORDER BY
 ;
 -- 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 SELECT last_name as "last name",
-		COUNT (last_name) as "frequency count of employee''s'' last names"
-		
+		COUNT (last_name) as "frequency count of employee last names"
 FROM 
 	employees
 GROUP BY last_name
-ORDER BY "frequency count of employee''s'' last names" DESC
+ORDER BY "frequency count of employee last names" DESC
 ;
